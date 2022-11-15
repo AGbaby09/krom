@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'type_machineregular';
+    src: url('type_machine.woff2') format('woff2'),
+         url('type_machine.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{    
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'type_machineregular';
+    color: white;
+    background-color: black;
+    background-image: url(krom_pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+/* landing page body */
+
+
+form{
+    left: 40%;
+    top: 40%;
+    position: absolute;
+    width: 20%;
+    text-align: center;
+    height: 20vh;
+}
+
+form input{
+    font-family: 'type_machineregular';
+    margin: 10px;
+    padding: 12px;
+    border-radius:50px;
+    width: 90%;
+    text-align: center;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(5.3px);
+    backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: yellow;
+}
+
+    
+form input:focus{
+    border:none;
+    outline:none;
+}
+
+form input::placeholder{
+    color: yellow;
+    font-family: 'type_machineregular';
+}
+
+form button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    color: black;
+    cursor:pointer;
+    font-size:15px;
+    font-weight: 600;
+    font-family: 'type_machineregular';
+}
+form button:hover{
+    background-color: darkgray;
+}
+form p{
+    position: relative;
+    top: 95%;
+}    
+form a{
+    text-decoration:none;
+    color: yellow;
+}
+/* video */
+
+
+
+
+
+
+
+/* for mobile */
+@media screen and (max-width: 450px){
+    body{
+        background-size: cover;
+    }
+    nav{
+        top: 93%;
+        position: fixed;
+        left: 34%;
+    }
+    nav ul{
+        padding: 0;
+        position: absolute;
+        background-color: transparent;
+        display: inline-flex;
+        width: fit-content;
+    }
+    nav ul li{
+        list-style-type: none;
+        background-color: transparent;
+        padding:10px;
+        margin-left: 5px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: yellow;
+        background-color: transparent;
+    }
+    form{
+        left: 19%;
+        top: 40%;
+        position: absolute;
+        width: 60%;
+        justify-content: center;
+        height: 20vh;
+    }
+    
+    form input{
+        font-family: 'type_machineregular';
+        margin: 10px;
+        padding: 12px;
+        border-radius:50px;
+        height: 4.5vh;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        -webkit-backdrop-filter: blur(5.3px);
+        backdrop-filter: blur(5.3px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: yellow;
+    }
+    
+        
+    form input:focus{
+        border:none;
+        outline:none;
+    }
+    
+    form input::placeholder{
+        color: yellow;
+        font-family: 'type_machineregular';
+    }
+    
+    form button{
+        padding: 10px 10px;
+        border-radius: 10px;
+        outline: none;
+        border:none;
+        color: black;
+        cursor:pointer;
+        font-size:15px;
+        font-weight: 600;
+        font-family: 'type_machineregular';
+        text-align: center;
+        margin-left: 25px;
+    }
+    form button:hover{
+        background-color: darkgray;
+    }
+    form p{
+        width: 120%;
+        position: relative;
+        top: 80%;
+        right: 10px;
+    }    
+    form a{
+        text-decoration:none;
+        color: yellow;
+    }
+    
+}
