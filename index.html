@@ -4,34 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        hr{
-            opacity: 0;
-        }
-        input{
-            
-            padding: 10px;
-        }
-        label{
-            font-size: 20px;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="landStyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <title>Landing Page</title>
 </head>
-<body>
-    <div>
-        <label>Name:</label>
-        <input type="text" ng-model="yourName" placeholder="Enter a name here">
-        <hr>
-        <label>Name:</label>
-        <input type="text" ng-model="yourName" placeholder="Enter a name here">
-        <hr>
-        <label>Name:</label>
-        <input type="text" ng-model="yourName" placeholder="Enter a name here">
-        <hr>
-        <label>Name:</label>
-        <input type="text" ng-model="yourName" placeholder="Enter a name here">
-        <h1>Hello {{yourName}}!</h1>
-      </div>
+<body id="land">
+    <!-- <video id="vid" loop autoplay muted src="kromvid.MP4">
+        
+
+    </video> -->
+    
+    <nav>
+        <ul class="text">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="phone.html">CONTACT US</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="index.html"><i class="material-icons">home</i></a></li>
+            <li><a href="phone.html"><i class="material-icons">phone</i></a></li>
+            <li><a href="login.html"><i class="material-icons">person</i></a></li>
+        </ul>
+
+    </nav>
+   
+    <div class="head">
+        <div class="item one">
+            <div class="card" id="uno">
+                
+            </div>
+            <h1 id="card1"></h1>
+        </div>
+        <div class="item two">
+            <div class="card" id="dos">
+                <video id="krom" src="kVid.MP4" loop autoplay muted></video>
+            </div>
+            <h1 id="card2"></h1>
+        </div>
+        <div class="item three">
+            <div class="card"  id="tres">
+                
+            </div>
+            <h1 id="card3"></h1>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
