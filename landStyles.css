@@ -111,6 +111,7 @@ nav ul li a:hover{
 }
 .one .card{
     background-image: url('newKrom.PNG');
+    position: fixed;
 }
 .one .card:hover{
     top: -20px;
@@ -118,10 +119,10 @@ nav ul li a:hover{
 .two video{
     left: 1.5%;
     top: -149px;
-    position: absolute;
+    position: fixed;
 }
 .one, .three{
-    position: absolute;
+    position: fixed;
     top: 130px;
 }
 .two .card:hover{
