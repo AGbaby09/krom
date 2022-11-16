@@ -119,7 +119,7 @@ nav ul li a:hover{
 .two video{
     left: 1.5%;
     top: -149px;
-    position: fixed;
+    position: absolute;
     height:fit-content;
 }
 .one, .three{
