@@ -80,7 +80,6 @@ nav ul li a:hover{
     width: 100%;
     position: absolute;
     display: inline-flex;
-    left: 5vh;
 }
 .head .item{
     position: relative;
@@ -111,20 +110,14 @@ nav ul li a:hover{
 }
 .one .card{
     background-image: url('newKrom.PNG');
-    position: fixed;
 }
 .one .card:hover{
     top: -20px;
 }
 .two video{
     left: 1.5%;
-    top: -149px;
+    top: 0;
     position: absolute;
-    height:fit-content;
-}
-.one, .three{
-    position: fixed;
-    top: 130px;
 }
 .two .card:hover{
     top: -20px;
